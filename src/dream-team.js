@@ -11,7 +11,7 @@ module.exports = function createDreamTeam(mas) {
         res.push(newEl[0]);
       }
     });
-    console.log('resSort ', res.sort().join(''));
+    // console.log('resSort ', res.sort().join(''));
     return res.sort().join('');
   } else {
     return false;
